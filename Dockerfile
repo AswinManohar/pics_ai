@@ -66,9 +66,10 @@ RUN pip install pip -U && \
     pip install numpy -U && \
     pip install scipy==0.19.0 -U && \
     pip install matplotlib -U && \
+    pip install ipython -U && \
     easy_install scikit-learn==0.12.1 && \
     easy_install theano==0.7 
-   
+ 
 
 # Define home, psrhome, OSTYPE and create the directory
 ENV HOME /home/psr
